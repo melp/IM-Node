@@ -3,7 +3,7 @@ var Router 	= require('./siteRouter');
 var views 	= require('koa-views');
 
 var app 	=  new koa();
-
+1
 const  serve = require("koa-static");
 app.use(serve(__dirname+ "/static/html"));
   
